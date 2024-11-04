@@ -3,13 +3,13 @@
 # If it’s more than 10 characters, print a message which states “string too long”.
 # If it’s 10 characters, print a message which states “perfect string” and continue the exercise.
 
-user_string =input("Please, write a string")
-if len(user_string) > 10:
-    print("This string is too long")
-elif len(user_string) == 10:
-    print("This string is perfect!")
-else:
-    print("this string is not long enough")
+# user_string =input("Please, write a string")
+# if len(user_string) > 10:
+#     print("This string is too long")
+# elif len(user_string) == 10:
+#     print("This string is perfect!")
+# else:
+#     print("this string is not long enough")
 
 
 #EXERCISE 2
@@ -29,11 +29,11 @@ else:
 
 #BONUS EX Swap some characters around then print the newly jumbled string (hint: look into the shuffle method). 
 
-# import random
-# phrase=input("write any word")
-# abrakadabra=list(phrase)
-# random.shuffle(abrakadabra)
-# abrakadabra=''.join(abrakadabra)
-# print(abrakadabra)
+import random
+phrase=input("write any word")
+abrakadabra=list(phrase)
+random.shuffle(abrakadabra)
+abrakadabra=''.join(abrakadabra)
+print(abrakadabra)
 
 
