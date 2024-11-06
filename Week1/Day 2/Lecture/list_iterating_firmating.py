@@ -1,4 +1,6 @@
 # #DATE STRUCTURES:
+
+
 # #sequences = string (последовательность)
 # #data structure sequences = list
 # #sets (множество)
@@ -23,28 +25,37 @@
 # nums_list=[1,2,4,5,6,7,8,]  #в list можно добавлять любые переменные
 # #они могут быть разного типа
 
-# #list methods
+#___________________________________________
+
+# #LIST METHODS
+
+# .APPEND
 # # nums_list.append(291) # добавляет в конец списка
 # # print(nums_list)
 
-# # nums_list.insert(2,55) # 2- это индекс (начинается с 0), 
+# .INSERT
+# # nums_list.insert(2,55) # 2- это индекс (начинается с 0),  55 - элемент
 # # print(nums_list)
 
+
+# .REMOVE
 # # nums_list.remove(2) #убирает только первое проявление переменной в списке
 # # print(nums_list)
 
+
+# DEL ____
 # # del nums_list[3] #убирает переменную по индексу (локации)
 # # print(nums_list) 
+
+# .POP
 # # nums_list.pop() #убирает последнее
 # # print(nums_list)
-
 # # nums_list.pop(3) # убирает по индексу
 # # print(nums_list)
 # # deleted_el=nums_list.pop(3)  # создаем новую переменную для убранного элемента из списка
 # # print(deleted_el) # так мы можем посмотреть что удалили
 
-
-
+# using .INDEX
 # # print(nums_list.index(2))
 # # nums_list[2]=40  #заменить по индексу в списке
 # # print(nums_list)
@@ -53,6 +64,9 @@
 # # #list indexing
 # # print(nums_list[3:])
 # # print(nums_list[3])
+
+
+#_______________________________
 
 # # #TUPLE is fixed (unmuted) list мы не можем менять последовательность 
 # # some_tuple=tuple()
@@ -77,7 +91,12 @@
 # #     list1[list1.index(20)]=200 #заменяем по индексу
 # # print(list1)
 
+
+#____________________________________
+
 # # # SET МНОЖЕСТВА!!!
+
+
 # # my_set={}
 # # my_set=set()
 
@@ -95,6 +114,7 @@
 
 # # set4 = my_set.union(set2) #объединяет два множества
 # # print(set4)
+
 # SET DOEST ALLOW ПОВТОРЕНИЯ
 # чуыствителен к регистру А и а - определяет как разное 
 
@@ -105,6 +125,8 @@
 # names_set=set(names) #создаем множество (оно всегда перемешано)
 # names_updated=list(names_set) 
 # print(names_updated)
+
+#_______________________________
 
 # LOOPS позволяет повторять действие поочередно с каждой переменной в последовательности 
 #syntax

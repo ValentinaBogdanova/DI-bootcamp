@@ -144,8 +144,17 @@
 #     elif 12 < age_num:
 #         each_prise.append(15)
 # total_prise = sum(each_prise)
-# print(f'Total price of your tickets {total_prise}')
 
+
+
+
+# family_size=int(input("how many ppl?")) 
+# i = 0
+# total_cost =0
+# while i <= family_size:
+#     age = int(input("How old is member?"))
+#     if age<3:
+#         total_cost+=0
 
 
 
@@ -181,3 +190,5 @@
 #     finished_sandwiches.append(sandwich)
 #     print(f'I made your {sandwich}')
 # print(f"All the sanwiches are ready {finished_sandwiches}")
+
+
