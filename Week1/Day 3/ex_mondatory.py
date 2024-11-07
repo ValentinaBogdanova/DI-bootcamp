@@ -150,11 +150,11 @@ for index in range(len(users)):
     users_dict[users[index]]=index
 print(users_dict)
 
-#Use a for loop to recreate the 2nd result. Tip : don’t hardcode the numbers.
+# Use a for loop to recreate the 2nd result. Tip : don’t hardcode the numbers.
 
-# for index in range(len(users)):
-#     users_dict[index]=users[index]
-# print(users_dict)
+for index in range(len(users)):
+    users_dict[index]=users[index]
+print(users_dict)
 
 
 #Use a method to recreate the 3rd result. Hint: The 3rd result is sorted alphabetically.

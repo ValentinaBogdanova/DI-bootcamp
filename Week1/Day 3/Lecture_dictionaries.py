@@ -45,7 +45,7 @@
 # user_info_dict['profession']= 'Web developer teacher'  
 # print(user_info_dict)
 
-# # DELETE A KEY VALUE PEIR (AN ENTRY) OF THE DIRECT
+# # DELETE A KEY VALUE PAIR (AN ENTRY) OF THE DIRECT
 # del user_info_dict['profession']
 
 #CHECKING IF A KEY EXIST 
@@ -96,11 +96,76 @@
 # user_info_dict.update(user_info2)
 # print(user_info_dict)
 
+
+
+
+
+
+
+
+#ADVANCED KISR DICTIONARIES
 #FOR LOOP 
 
+my_book={
+    "title":"Harry Potter",
+    "author":"JK Rowling"
+}
 
-
+for key, value in my_book.items():
+    print(f'The key is {key} and value is {value}')
 #_________
+
+#range () and enumerate()
+
+# range JUST numbers
+#enumerate work with string
+#Функция range() создает последовательность чисел и возвращает объект range.
+#  Ее часто используют в циклах for для повторения 
+# определенного количества раз. range() принимает параметры:
+
+#Функция enumerate() применяется для перебора элементов последовательности 
+# (например, списка) и возвращает кортеж, содержащий индекс элемента и сам элемент. 
+# Это удобно, если нужно одновременно получить и индекс, и значение.
+
+odd_list=list(range(1,20,2))
+print(list)
+
+
+even_num=[]
+for i in range(1,20):
+    if i %2 ==0:
+        even_num.append(i)
+print(even_num)
+
+students = ["John", "Anna", "Cathe", "Lucy"]
+
+for index, name in enumerate(students):
+    print(index,name)
+
+students[1]='Maria'
+
+for index, name in enumerate(students):
+    students[index]= f'Hello{name}'
+
+print(students)
+
+# students[1]='Maria'
+
+for each_student in students:
+    if each_student == "Hello Cathe":
+        continue
+    else:
+        print(f'{each_student}, how are you')
+
+#pass
+if students[0]is 'Hello Harry':
+    pass #a developer keyword to help to structure the code
+else:
+    print("Not Harry")
+
+
+
+
 
 # sample_dict = {
 #   "name": "Kelly",
@@ -121,7 +186,15 @@
 
 # list1 = [1,2,3]
 # list2 = ['a','b','c']
-# list3 = [1.1, 2.2, 3.3, 4.4, 5.5]
+# list4 = [1.1, 2.2, 3.3, 4.4, 5.5]
+# list3= list(zip(list1,list2))
+# print(list3)
+
+
+
+
+
+
 
 # for item in zip(list1, list2, list3): # only go as far it is possible
 #     print(item)
@@ -131,11 +204,42 @@
 # (3, 'c', 3.3)
 
 
-list1=[1,2,3,4]
-list2=['a','b','c','d']
-list3=[1.1, 2.2, 3.3, 4.4]
+
+# list1=[1,2,3,4]
+# list2=['a','b','c','d']
+# list3=[1.1, 2.2, 3.3, 4.4]
 
 ### print(zip(list1,list2, list3)) так не получится
 
-print(list(zip(list1,list2, list3)))    
-print(dict(zip(list1,list2, list3)))
+# print(list(zip(list1,list2, list3)))    
+###print(dict(zip(list1,list2, list3))) #чтобы чделать слооооварь
+
+
+#break --- остановись
+#continue ----
+#pass-----
+
+
+#while True   #instead of___ WHILE <condition>:___
+# можно использовать например если условие еще не прописано и переменная не указана
+# total_fem=[]
+# while True:
+#     family_member = input('Give me the age, type "quit" when finish')
+#     if family_member =='quit':
+#         break
+#     total_fem.append(family_member)
+# print(total_fem)
+
+#COMPREHENSIVE list   обычно используется с циклом for
+even_num=[]
+# for i in range(1,20):
+#     if i %2 ==0:
+#         even_num.append(i)
+# print(even_num)
+
+even_num = [i for i in range(1,20) if i%2 ==0]
+print(even_num)
+
+even_num =tuple((i for i in range(1,20) if i%2 ==0))
+print(type(even_num))   #можно и с set и tuple использовать
+

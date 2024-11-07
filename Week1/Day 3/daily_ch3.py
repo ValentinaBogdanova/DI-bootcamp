@@ -26,27 +26,27 @@
 # Return “Nothing” if you can’t afford anything from the store.
 # Hint : make sure to convert the amount from dollars to numbers. Create a program that deletes the $ sign, and the comma (for thousands)
 
-# items_purchase = {
-#   "Milk": "$3",
-#   "Bread": "$2",
-#   "Soap": "$12",
-#   "Yogurt": "$4",
-#   "Meat": "$20",
-#   "Wine":"$30",
-#   "Microwave":"$150",
-#   "whiskey":'$60',
-#   "iphone":"$1,000"
-# }
-# wallet="$300"
+items_purchase = {
+  "Milk": "$3",
+  "Bread": "$2",
+  "Soap": "$12",
+  "Yogurt": "$4",
+  "Meat": "$20",
+  "Wine":"$30",
+  "Microwave":"$150",
+  "whiskey":'$60',
+  "iphone":"$1,000"
+}
+wallet="$300"
 
-# items_format = {key: int(value[1:].replace(',', '')) for key, value in items_purchase.items()}
-# print(items_format)
+items_format = {key: int(value[1:].replace(',', '')) for key, value in items_purchase.items()}
+print(items_format)
 
-# wallet_int=int(wallet[1:])
-# print(wallet_int)
-# can_buy= {key: price for key, price in items_format.items() if price <= wallet_int}
-# buy_list = list(can_buy.keys())  
-# if buy_list:
-#     print(f"You can buy: {buy_list}")
-# else:
-#     print("You can't buy anything")
+wallet_int=int(wallet[1:])
+print(wallet_int)
+can_buy= {key: price for key, price in items_format.items() if price <= wallet_int}
+buy_list = list(can_buy.keys())  
+if buy_list:
+    print(f"You can buy: {buy_list}")
+else:
+    print("You can't buy anything")
