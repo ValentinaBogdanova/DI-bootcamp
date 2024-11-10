@@ -32,11 +32,11 @@ user_info(name="Valentina", age = '30', telephone='054526890')
 
 
 
-def user_info(**kwargs):
-    for keyword in kwargs.keys():
-        if keyword 
-    print(kwargs)
+# def user_info(**kwargs):
+#     for keyword in kwargs.keys():
+#         if keyword 
+#     print(kwargs)
 
-user_info(name="Valentina", age = '30', telephone='054526890')
+# user_info(name="Valentina", age = '30', telephone='054526890')
 
     
