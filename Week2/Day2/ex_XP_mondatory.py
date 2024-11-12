@@ -108,27 +108,27 @@
 
 #CODE
 
-# class Family:
-#     def __init__(self, members = None, last_name =""):
-#         if members is None:
-#             members = []
-#         self.members = members
-#         self.last_name = last_name
-#     def born(self, **kwargs):
-#         self.members.append(kwargs)
-#         print(f"Conrats with new member in {self.last_name} family!")
-#     def is_18(self, name):
-#         for member in self.members:
-#             if member["name"] == name:
-#                 if member["age"] >= 18:
-#                     print(f"{member["name"]} is an aduld")   
-#                 else:
-#                     print(f"{member["name"]} is a child")   
-#     def family_presentation(self):
-#         print(f"Family:  {self.last_name}")
-#         print()
-#         for member in self.members:
-#             print(f"Name: {member['name']}, Age: {member['age']}, Gender: {member['gender']}, is_child: {member['is_child']}")
+class Family:
+    def __init__(self, members = None, last_name =""):
+        if members is None:
+            members = []
+        self.members = members
+        self.last_name = last_name
+    def born(self, **kwargs):
+        self.members.append(kwargs)
+        print(f"Conrats with new member in {self.last_name} family!")
+    def is_18(self, name):
+        for member in self.members:
+            if member["name"] == name:
+                if member["age"] >= 18:
+                    print(f"{member["name"]} is an aduld")   
+                else:
+                    print(f"{member["name"]} is a child")   
+    def family_presentation(self):
+        print(f"Family:  {self.last_name}")
+        print()
+        for member in self.members:
+            print(f"Name: {member['name']}, Age: {member['age']}, Gender: {member['gender']}, is_child: {member['is_child']}")
 
 
 # members = [

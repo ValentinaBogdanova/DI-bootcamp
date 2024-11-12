@@ -1,0 +1,3 @@
+#DUNDER METHODS
+
+print(dir())
