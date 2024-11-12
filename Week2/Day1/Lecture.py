@@ -72,7 +72,7 @@ print(puddle.name)
 #call method brk gor class 
 # exemple dell_computer.description("Mark")
 
-Dog.bark(puddle)
+Dog.bark(puddle) # метод вызова функции через класс и обьект
 
 # print(puddle.walk(300))
 
