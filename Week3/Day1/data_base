@@ -1,0 +1,37 @@
+Database: structured data storage
+SQL- structured Query Language (pronunced as Siquel)
+PostgreSQL RDBM (reletional database management system)
+pgAdmin - GUI (graphical  interface) to work with PostgreSQL
+
+relational DB: ogranaithed as table
+the table have relationship (parent tables and child tables)
+
+
+Terminology for a table in Database
+How the data on a relational db?
+
+- TABLE
+fields: the 1 row of the table which holds the headings of each column
+a record or a row: horizontal :individual entry on a table
+column: vertical data associated with specific field
+
+NULL  value: это отсутствие значения а не 0
+
+DATATYPES on DB:
+-varchar : short string
+-text: text field
+-integers
+-smallint
+-date time
+-boolian
+
+
+CONSTRAINTS   - its a condition  ( чтобы данные например были одного типа)
+
+- not null: has to be valid data ( no absence)
+- DEFAULT (по умалчанию) sets of default data
+- UNIQUE: DONT ACCEPT REPEATED DATA
+- PRINARY KEY: not null + unique . usualy is used to create a serial number that indetifies the row
+
+
+sta
