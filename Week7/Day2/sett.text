@@ -1,0 +1,6 @@
+PS C:\Users\Acer\Desktop\DI-bootcamp> cd C:\Users\Acer\Desktop\DI-bootcamp\Week7\Day2
+PS C:\Users\Acer\Desktop\DI-bootcamp\Week7\Day2> python -m venv venv
+PS C:\Users\Acer\Desktop\DI-bootcamp\Week7\Day2> venv/Scripts/activate.ps1
+(venv) PS C:\Users\Acer\Desktop\DI-bootcamp\Week7\Day2> pip3 install selenium webdriver-manager
+
+(venv) PS C:\Users\Acer\Desktop\DI-bootcamp\Week7\Day2> python 1_chromedriver.py
