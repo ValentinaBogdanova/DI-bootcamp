@@ -1,0 +1,647 @@
+Time,Temperature,Precipitation,Wind Speed (km/h),Humidity,Details,Day
+19:00,18°,"7%
+chance of precipitation",,66%,A clear sky and a gentle breeze,1
+20:00,18°,"7%
+chance of precipitation",,68%,A clear sky and light winds,1
+21:00,17°,"5%
+chance of precipitation",,71%,A clear sky and light winds,1
+22:00,17°,"0%
+chance of precipitation",,74%,A clear sky and light winds,1
+23:00,16°,"6%
+chance of precipitation",,75%,A clear sky and light winds,1
+00:00,15°,"0%
+chance of precipitation",,80%,Partly cloudy and light winds,1
+01:00,15°,"0%
+chance of precipitation",,84%,Partly cloudy and light winds,1
+02:00,15°,"0%
+chance of precipitation",,89%,Partly cloudy and light winds,1
+03:00,14°,"0%
+chance of precipitation",,90%,Partly cloudy and light winds,1
+04:00,14°,"0%
+chance of precipitation",,88%,Partly cloudy and light winds,1
+05:00,14°,"0%
+chance of precipitation",,88%,A clear sky and light winds,1
+06:00,14°,"0%
+chance of precipitation",,86%,A clear sky and light winds,1
+07:00,14°,"0%
+chance of precipitation",,85%,Sunny and light winds,1
+08:00,15°,"0%
+chance of precipitation",,81%,Sunny and light winds,1
+09:00,16°,"0%
+chance of precipitation",,76%,Sunny and a gentle breeze,1
+10:00,18°,"0%
+chance of precipitation",,71%,Sunny intervals and a gentle breeze,1
+11:00,19°,"15%
+chance of precipitation",,67%,Sunny intervals and a gentle breeze,1
+12:00,19°,"38%
+chance of precipitation",,66%,Light rain and a gentle breeze,1
+13:00,19°,"43%
+chance of precipitation",,67%,Light rain and a gentle breeze,1
+14:00,19°,"44%
+chance of precipitation",,68%,Drizzle and a gentle breeze,1
+15:00,19°,"48%
+chance of precipitation",,68%,Light rain and a gentle breeze,1
+16:00,19°,"48%
+chance of precipitation",,69%,Light rain showers and a gentle breeze,1
+17:00,19°,"33%
+chance of precipitation",,70%,Partly cloudy and a gentle breeze,1
+18:00,18°,"35%
+chance of precipitation",,73%,Partly cloudy and light winds,1
+19:00,18°,"26%
+chance of precipitation",,75%,Partly cloudy and light winds,1
+20:00,18°,"0%
+chance of precipitation",,78%,A clear sky and light winds,1
+21:00,17°,"0%
+chance of precipitation",,81%,A clear sky and light winds,1
+22:00,16°,"0%
+chance of precipitation",,82%,A clear sky and light winds,1
+23:00,15°,"0%
+chance of precipitation",,84%,A clear sky and light winds,1
+00:00,15°,"0%
+chance of precipitation",,84%,A clear sky and light winds,1
+01:00,15°,"0%
+chance of precipitation",,83%,A clear sky and a gentle breeze,1
+02:00,15°,"0%
+chance of precipitation",,82%,A clear sky and a gentle breeze,1
+03:00,15°,"0%
+chance of precipitation",,83%,A clear sky and a gentle breeze,1
+04:00,15°,"0%
+chance of precipitation",,83%,A clear sky and a gentle breeze,1
+05:00,14°,"0%
+chance of precipitation",,83%,Partly cloudy and a gentle breeze,1
+06:00,14°,"0%
+chance of precipitation",,82%,A clear sky and a gentle breeze,2
+07:00,14°,"0%
+chance of precipitation",,80%,Sunny and a gentle breeze,2
+08:00,15°,"0%
+chance of precipitation",,77%,Sunny and a gentle breeze,2
+09:00,16°,"0%
+chance of precipitation",,72%,Sunny intervals and a gentle breeze,2
+10:00,17°,"0%
+chance of precipitation",,67%,Sunny intervals and a gentle breeze,2
+11:00,19°,"8%
+chance of precipitation",,63%,Sunny intervals and a gentle breeze,2
+12:00,19°,"33%
+chance of precipitation",,64%,Light rain showers and a gentle breeze,2
+13:00,19°,"30%
+chance of precipitation",,64%,Sunny intervals and a gentle breeze,2
+14:00,19°,"31%
+chance of precipitation",,66%,Drizzle and a gentle breeze,2
+15:00,19°,"19%
+chance of precipitation",,68%,Sunny intervals and a gentle breeze,2
+16:00,19°,"19%
+chance of precipitation",,70%,Sunny intervals and a gentle breeze,2
+17:00,18°,"21%
+chance of precipitation",,72%,Partly cloudy and light winds,2
+18:00,18°,"17%
+chance of precipitation",,76%,Partly cloudy and light winds,2
+19:00,17°,"16%
+chance of precipitation",,78%,Partly cloudy and light winds,2
+20:00,17°,"21%
+chance of precipitation",,81%,Partly cloudy and light winds,2
+21:00,16°,"17%
+chance of precipitation",,83%,Partly cloudy and light winds,2
+22:00,16°,"13%
+chance of precipitation",,84%,Partly cloudy and light winds,2
+23:00,15°,"6%
+chance of precipitation",,85%,Partly cloudy and light winds,2
+00:00,15°,"0%
+chance of precipitation",,85%,A clear sky and light winds,2
+01:00,14°,"0%
+chance of precipitation",,86%,A clear sky and light winds,2
+02:00,14°,"0%
+chance of precipitation",,85%,A clear sky and light winds,2
+03:00,14°,"0%
+chance of precipitation",,86%,A clear sky and light winds,2
+04:00,14°,"0%
+chance of precipitation",,85%,A clear sky and light winds,2
+05:00,13°,"0%
+chance of precipitation",,86%,A clear sky and light winds,2
+06:00,13°,"0%
+chance of precipitation",,83%,A clear sky and light winds,3
+07:00,13°,"0%
+chance of precipitation",,79%,Sunny and light winds,3
+08:00,14°,"0%
+chance of precipitation",,75%,Sunny and light winds,3
+09:00,16°,"0%
+chance of precipitation",,70%,Sunny and a gentle breeze,3
+10:00,17°,"0%
+chance of precipitation",,65%,Sunny intervals and a gentle breeze,3
+11:00,18°,"0%
+chance of precipitation",,63%,Light cloud and a gentle breeze,3
+12:00,19°,"60%
+chance of precipitation",,63%,Light rain showers and a gentle breeze,3
+13:00,19°,"59%
+chance of precipitation",,64%,Light rain showers and a gentle breeze,3
+14:00,19°,"56%
+chance of precipitation",,65%,Light rain showers and a gentle breeze,3
+15:00,18°,"43%
+chance of precipitation",,66%,Light rain showers and a gentle breeze,3
+16:00,18°,"42%
+chance of precipitation",,67%,Light rain showers and a gentle breeze,3
+17:00,18°,"41%
+chance of precipitation",,68%,Light rain showers and a gentle breeze,3
+18:00,17°,"45%
+chance of precipitation",,73%,Light rain showers and a gentle breeze,3
+19:00,16°,"48%
+chance of precipitation",,77%,Thundery showers and a gentle breeze,3
+20:00,16°,"50%
+chance of precipitation",,81%,Thundery showers and light winds,3
+21:00,15°,"67%
+chance of precipitation",,84%,Light rain showers and light winds,3
+22:00,15°,"55%
+chance of precipitation",,87%,Light rain showers and light winds,3
+23:00,15°,"56%
+chance of precipitation",,89%,Light rain showers and light winds,3
+00:00,14°,"67%
+chance of precipitation",,90%,Light rain showers and light winds,3
+01:00,14°,"66%
+chance of precipitation",,90%,Light rain showers and light winds,3
+02:00,14°,"64%
+chance of precipitation",,90%,Light rain showers and a gentle breeze,3
+03:00,14°,"42%
+chance of precipitation",,92%,Light rain showers and a gentle breeze,3
+04:00,14°,"32%
+chance of precipitation",,90%,Drizzle and a gentle breeze,3
+05:00,13°,"47%
+chance of precipitation",,89%,Light rain showers and a gentle breeze,3
+06:00,13°,"23%
+chance of precipitation",,87%,Partly cloudy and a gentle breeze,4
+07:00,13°,"21%
+chance of precipitation",,85%,Sunny intervals and a gentle breeze,4
+08:00,14°,"22%
+chance of precipitation",,80%,Sunny intervals and a gentle breeze,4
+09:00,15°,"17%
+chance of precipitation",,73%,Sunny intervals and a gentle breeze,4
+10:00,17°,"15%
+chance of precipitation",,68%,Sunny intervals and a gentle breeze,4
+11:00,18°,"16%
+chance of precipitation",,65%,Sunny intervals and a gentle breeze,4
+12:00,18°,"8%
+chance of precipitation",,65%,Sunny intervals and a gentle breeze,4
+13:00,18°,"8%
+chance of precipitation",,65%,Sunny intervals and a gentle breeze,4
+14:00,18°,"7%
+chance of precipitation",,66%,Sunny intervals and a gentle breeze,4
+15:00,18°,"4%
+chance of precipitation",,68%,Sunny and a gentle breeze,4
+16:00,18°,"0%
+chance of precipitation",,69%,Sunny and light winds,4
+17:00,17°,"0%
+chance of precipitation",,72%,A clear sky and light winds,4
+18:00,17°,"0%
+chance of precipitation",,77%,A clear sky and light winds,4
+19:00,16°,"0%
+chance of precipitation",,81%,A clear sky and light winds,4
+20:00,16°,"0%
+chance of precipitation",,85%,A clear sky and light winds,4
+21:00,15°,"0%
+chance of precipitation",,88%,A clear sky and light winds,4
+22:00,14°,"0%
+chance of precipitation",,89%,A clear sky and light winds,4
+23:00,13°,"0%
+chance of precipitation",,91%,A clear sky and light winds,4
+00:00,13°,"0%
+chance of precipitation",,92%,A clear sky and light winds,4
+01:00,12°,"0%
+chance of precipitation",,91%,A clear sky and light winds,4
+02:00,12°,"0%
+chance of precipitation",,90%,A clear sky and light winds,4
+03:00,11°,"0%
+chance of precipitation",,91%,A clear sky and light winds,4
+04:00,11°,"0%
+chance of precipitation",,91%,A clear sky and light winds,4
+05:00,11°,"0%
+chance of precipitation",,91%,A clear sky and light winds,4
+06:00,11°,"0%
+chance of precipitation",,89%,A clear sky and light winds,5
+07:00,11°,"0%
+chance of precipitation",,86%,Sunny and light winds,5
+08:00,12°,"0%
+chance of precipitation",,81%,Sunny and light winds,5
+09:00,14°,"0%
+chance of precipitation",,69%,Sunny and light winds,5
+10:00,16°,"0%
+chance of precipitation",,59%,Sunny and light winds,5
+11:00,18°,"0%
+chance of precipitation",,51%,Sunny and light winds,5
+12:00,19°,"0%
+chance of precipitation",,50%,Sunny and light winds,5
+13:00,19°,"0%
+chance of precipitation",,50%,Sunny and light winds,5
+14:00,19°,"0%
+chance of precipitation",,49%,Sunny and light winds,5
+15:00,19°,"0%
+chance of precipitation",,53%,Sunny and light winds,5
+16:00,19°,"0%
+chance of precipitation",,56%,Sunny and light winds,5
+17:00,18°,"0%
+chance of precipitation",,60%,A clear sky and light winds,5
+18:00,17°,"0%
+chance of precipitation",,65%,A clear sky and light winds,5
+19:00,16°,"0%
+chance of precipitation",,71%,A clear sky and light winds,5
+20:00,16°,"0%
+chance of precipitation",,75%,A clear sky and light winds,5
+21:00,15°,"0%
+chance of precipitation",,74%,A clear sky and light winds,5
+22:00,15°,"0%
+chance of precipitation",,72%,A clear sky and light winds,5
+23:00,14°,"0%
+chance of precipitation",,70%,A clear sky and light winds,5
+00:00,13°,"0%
+chance of precipitation",,71%,A clear sky and light winds,5
+01:00,13°,"0%
+chance of precipitation",,71%,A clear sky and light winds,5
+02:00,13°,"0%
+chance of precipitation",,69%,A clear sky and light winds,5
+03:00,13°,"0%
+chance of precipitation",,71%,A clear sky and light winds,5
+04:00,12°,"0%
+chance of precipitation",,72%,A clear sky and light winds,5
+05:00,12°,"0%
+chance of precipitation",,73%,A clear sky and light winds,5
+06:00,12°,"0%
+chance of precipitation",,71%,A clear sky and light winds,6
+07:00,12°,"0%
+chance of precipitation",,68%,Sunny and a gentle breeze,6
+08:00,13°,"0%
+chance of precipitation",,65%,Sunny and a gentle breeze,6
+09:00,15°,"0%
+chance of precipitation",,57%,Sunny and a gentle breeze,6
+10:00,17°,"0%
+chance of precipitation",,51%,Sunny and a gentle breeze,6
+11:00,18°,"0%
+chance of precipitation",,48%,Sunny and a gentle breeze,6
+12:00,18°,"3%
+chance of precipitation",,48%,Sunny and a moderate breeze,6
+13:00,18°,"3%
+chance of precipitation",,50%,Sunny and a moderate breeze,6
+14:00,18°,"3%
+chance of precipitation",,53%,Sunny and a moderate breeze,6
+15:00,18°,"0%
+chance of precipitation",,53%,Sunny and a moderate breeze,6
+16:00,17°,"0%
+chance of precipitation",,54%,Sunny and a gentle breeze,6
+17:00,17°,"0%
+chance of precipitation",,55%,A clear sky and a gentle breeze,6
+18:00,17°,"0%
+chance of precipitation",,57%,A clear sky and a gentle breeze,6
+19:00,16°,"0%
+chance of precipitation",,59%,A clear sky and a gentle breeze,6
+20:00,16°,"0%
+chance of precipitation",,61%,A clear sky and a gentle breeze,6
+21:00,15°,"8%
+chance of precipitation",,64%,A clear sky and a gentle breeze,6
+22:00,15°,"8%
+chance of precipitation",,66%,A clear sky and a gentle breeze,6
+23:00,14°,"13%
+chance of precipitation",,68%,A clear sky and a gentle breeze,6
+00:00,14°,"13%
+chance of precipitation",,68%,A clear sky and a gentle breeze,6
+01:00,14°,"14%
+chance of precipitation",,69%,A clear sky and a gentle breeze,6
+02:00,14°,"10%
+chance of precipitation",,69%,A clear sky and a gentle breeze,6
+03:00,13°,"8%
+chance of precipitation",,70%,A clear sky and a gentle breeze,6
+04:00,13°,"7%
+chance of precipitation",,70%,A clear sky and a gentle breeze,6
+05:00,12°,"7%
+chance of precipitation",,70%,A clear sky and a gentle breeze,6
+06:00,12°,"6%
+chance of precipitation",,68%,A clear sky and a gentle breeze,7
+07:00,12°,"5%
+chance of precipitation",,67%,Sunny and a gentle breeze,7
+08:00,13°,"5%
+chance of precipitation",,65%,Sunny and a moderate breeze,7
+09:00,14°,"0%
+chance of precipitation",,59%,Sunny and a moderate breeze,7
+10:00,15°,"0%
+chance of precipitation",,54%,Sunny and a moderate breeze,7
+11:00,17°,"0%
+chance of precipitation",,51%,Sunny and a moderate breeze,7
+12:00,17°,"0%
+chance of precipitation",,51%,Sunny and a moderate breeze,7
+13:00,17°,"0%
+chance of precipitation",,52%,Sunny and a moderate breeze,7
+14:00,17°,"0%
+chance of precipitation",,54%,Sunny and a gentle breeze,7
+15:00,17°,"0%
+chance of precipitation",,55%,Sunny and a gentle breeze,7
+16:00,16°,"0%
+chance of precipitation",,57%,Sunny and a gentle breeze,7
+17:00,16°,"0%
+chance of precipitation",,59%,A clear sky and a gentle breeze,7
+18:00,15°,"0%
+chance of precipitation",,62%,A clear sky and light winds,7
+19:00,15°,"0%
+chance of precipitation",,66%,A clear sky and light winds,7
+20:00,15°,"0%
+chance of precipitation",,69%,A clear sky and light winds,7
+21:00,14°,"0%
+chance of precipitation",,71%,A clear sky and light winds,7
+22:00,13°,"0%
+chance of precipitation",,72%,A clear sky and light winds,7
+23:00,13°,"0%
+chance of precipitation",,75%,A clear sky and light winds,7
+00:00,12°,"0%
+chance of precipitation",,75%,A clear sky and a gentle breeze,7
+01:00,12°,"0%
+chance of precipitation",,76%,A clear sky and a gentle breeze,7
+02:00,12°,"0%
+chance of precipitation",,76%,A clear sky and a gentle breeze,7
+03:00,11°,"0%
+chance of precipitation",,78%,A clear sky and a gentle breeze,7
+04:00,11°,"0%
+chance of precipitation",,78%,A clear sky and a gentle breeze,7
+05:00,11°,"0%
+chance of precipitation",,79%,A clear sky and a gentle breeze,7
+06:00,11°,"0%
+chance of precipitation",,77%,A clear sky and a gentle breeze,8
+07:00,11°,"0%
+chance of precipitation",,74%,Sunny and a gentle breeze,8
+08:00,12°,"0%
+chance of precipitation",,72%,Sunny and a gentle breeze,8
+09:00,14°,"0%
+chance of precipitation",,62%,Sunny and a gentle breeze,8
+10:00,15°,"0%
+chance of precipitation",,57%,Sunny and a gentle breeze,8
+11:00,17°,"0%
+chance of precipitation",,50%,Sunny and a moderate breeze,8
+12:00,17°,"0%
+chance of precipitation",,54%,Sunny and a moderate breeze,8
+13:00,17°,"0%
+chance of precipitation",,55%,Sunny and a moderate breeze,8
+14:00,17°,"0%
+chance of precipitation",,58%,Sunny and a moderate breeze,8
+15:00,17°,"7%
+chance of precipitation",,58%,Sunny and a gentle breeze,8
+16:00,17°,"7%
+chance of precipitation",,60%,Sunny and a gentle breeze,8
+17:00,17°,"8%
+chance of precipitation",,62%,Partly cloudy and a gentle breeze,8
+18:00,16°,"8%
+chance of precipitation",,63%,Partly cloudy and a gentle breeze,8
+19:00,15°,"7%
+chance of precipitation",,66%,Partly cloudy and a gentle breeze,8
+20:00,15°,"8%
+chance of precipitation",,69%,Partly cloudy and light winds,8
+21:00,15°,"10%
+chance of precipitation",,72%,Partly cloudy and a gentle breeze,8
+22:00,14°,"11%
+chance of precipitation",,72%,Partly cloudy and a gentle breeze,8
+23:00,14°,"12%
+chance of precipitation",,74%,Partly cloudy and a gentle breeze,8
+00:00,14°,"12%
+chance of precipitation",,74%,Partly cloudy and a gentle breeze,8
+01:00,13°,"18%
+chance of precipitation",,73%,Partly cloudy and a gentle breeze,8
+02:00,13°,"21%
+chance of precipitation",,74%,Light cloud and a gentle breeze,8
+03:00,13°,"34%
+chance of precipitation",,76%,Light rain showers and a gentle breeze,8
+04:00,12°,"34%
+chance of precipitation",,80%,Light rain showers and a gentle breeze,8
+05:00,12°,"34%
+chance of precipitation",,83%,Light rain showers and a gentle breeze,8
+06:00,12°,"43%
+chance of precipitation",,85%,Light rain showers and a gentle breeze,9
+07:00,12°,"43%
+chance of precipitation",,85%,Light rain showers and a gentle breeze,9
+08:00,13°,"49%
+chance of precipitation",,78%,Light rain showers and a gentle breeze,9
+09:00,14°,"55%
+chance of precipitation",,73%,Light rain showers and a gentle breeze,9
+10:00,15°,"54%
+chance of precipitation",,67%,Light rain showers and a gentle breeze,9
+11:00,16°,"51%
+chance of precipitation",,62%,Light rain showers and a gentle breeze,9
+12:00,17°,"55%
+chance of precipitation",,64%,Light rain showers and a gentle breeze,9
+13:00,17°,"52%
+chance of precipitation",,65%,Light rain showers and a gentle breeze,9
+14:00,17°,"48%
+chance of precipitation",,68%,Light rain showers and a moderate breeze,9
+15:00,17°,"47%
+chance of precipitation",,68%,Light rain showers and a moderate breeze,9
+16:00,17°,"50%
+chance of precipitation",,69%,Light rain showers and a gentle breeze,9
+17:00,16°,"53%
+chance of precipitation",,71%,Light rain showers and a gentle breeze,9
+18:00,16°,"50%
+chance of precipitation",,74%,Light rain showers and a gentle breeze,9
+19:00,15°,"50%
+chance of precipitation",,76%,Light rain showers and a gentle breeze,9
+20:00,15°,"51%
+chance of precipitation",,78%,Light rain showers and a gentle breeze,9
+21:00,15°,"51%
+chance of precipitation",,81%,Thundery showers and a gentle breeze,9
+22:00,14°,"51%
+chance of precipitation",,84%,Thundery showers and a gentle breeze,9
+23:00,14°,"49%
+chance of precipitation",,84%,Light rain showers and light winds,9
+00:00,13°,"45%
+chance of precipitation",,86%,Light rain showers and a gentle breeze,9
+01:00,13°,"42%
+chance of precipitation",,88%,Light rain showers and a gentle breeze,9
+02:00,13°,"41%
+chance of precipitation",,87%,Light rain showers and a gentle breeze,9
+03:00,12°,"20%
+chance of precipitation",,91%,Partly cloudy and a gentle breeze,9
+04:00,12°,"20%
+chance of precipitation",,90%,Partly cloudy and a gentle breeze,9
+05:00,12°,"18%
+chance of precipitation",,92%,Light cloud and a gentle breeze,9
+06:00,11°,"19%
+chance of precipitation",,91%,Partly cloudy and a gentle breeze,10
+07:00,12°,"16%
+chance of precipitation",,89%,Sunny intervals and a gentle breeze,10
+08:00,12°,"19%
+chance of precipitation",,85%,Sunny intervals and a gentle breeze,10
+09:00,14°,"15%
+chance of precipitation",,75%,Sunny intervals and a gentle breeze,10
+10:00,16°,"15%
+chance of precipitation",,66%,Sunny intervals and a gentle breeze,10
+11:00,17°,"15%
+chance of precipitation",,60%,Sunny intervals and a gentle breeze,10
+12:00,17°,"13%
+chance of precipitation",,60%,Sunny intervals and a gentle breeze,10
+13:00,17°,"16%
+chance of precipitation",,61%,Sunny intervals and a gentle breeze,10
+14:00,17°,"13%
+chance of precipitation",,62%,Light cloud and a gentle breeze,10
+15:00,17°,"15%
+chance of precipitation",,64%,Sunny intervals and a gentle breeze,10
+16:00,17°,"12%
+chance of precipitation",,67%,Sunny intervals and a gentle breeze,10
+17:00,16°,"12%
+chance of precipitation",,70%,Partly cloudy and a gentle breeze,10
+18:00,16°,"11%
+chance of precipitation",,74%,Partly cloudy and light winds,10
+19:00,15°,"13%
+chance of precipitation",,77%,Partly cloudy and light winds,10
+20:00,15°,"11%
+chance of precipitation",,80%,Partly cloudy and light winds,10
+21:00,14°,"14%
+chance of precipitation",,83%,Partly cloudy and light winds,10
+22:00,14°,"12%
+chance of precipitation",,86%,Partly cloudy and light winds,10
+23:00,13°,"14%
+chance of precipitation",,88%,Partly cloudy and light winds,10
+00:00,13°,"12%
+chance of precipitation",,90%,Partly cloudy and light winds,10
+01:00,12°,"10%
+chance of precipitation",,92%,Partly cloudy and light winds,10
+02:00,12°,"12%
+chance of precipitation",,92%,Partly cloudy and light winds,10
+03:00,11°,"22%
+chance of precipitation",,95%,Partly cloudy and light winds,10
+04:00,11°,"21%
+chance of precipitation",,94%,Partly cloudy and light winds,10
+05:00,11°,"15%
+chance of precipitation",,96%,A clear sky and light winds,10
+06:00,11°,"10%
+chance of precipitation",,94%,A clear sky and light winds,11
+07:00,11°,"10%
+chance of precipitation",,91%,Sunny and light winds,11
+08:00,12°,"10%
+chance of precipitation",,86%,Sunny intervals and light winds,11
+09:00,14°,"16%
+chance of precipitation",,75%,Sunny intervals and light winds,11
+10:00,15°,"16%
+chance of precipitation",,65%,Sunny intervals and light winds,11
+11:00,17°,"16%
+chance of precipitation",,59%,Sunny intervals and light winds,11
+12:00,17°,"16%
+chance of precipitation",,59%,Sunny intervals and light winds,11
+13:00,17°,"16%
+chance of precipitation",,59%,Sunny intervals and a gentle breeze,11
+14:00,17°,"16%
+chance of precipitation",,61%,Sunny intervals and a gentle breeze,11
+15:00,17°,"18%
+chance of precipitation",,62%,Sunny intervals and a gentle breeze,11
+16:00,17°,"18%
+chance of precipitation",,65%,Sunny intervals and a gentle breeze,11
+17:00,16°,"18%
+chance of precipitation",,67%,Partly cloudy and light winds,11
+18:00,16°,"17%
+chance of precipitation",,71%,Partly cloudy and light winds,11
+19:00,15°,"17%
+chance of precipitation",,74%,Partly cloudy and light winds,11
+20:00,15°,"17%
+chance of precipitation",,78%,Partly cloudy and light winds,11
+21:00,14°,"14%
+chance of precipitation",,80%,Partly cloudy and light winds,11
+22:00,13°,"14%
+chance of precipitation",,83%,Partly cloudy and light winds,11
+23:00,13°,"14%
+chance of precipitation",,85%,Partly cloudy and light winds,11
+00:00,12°,"14%
+chance of precipitation",,86%,Partly cloudy and light winds,11
+01:00,12°,"15%
+chance of precipitation",,87%,Partly cloudy and light winds,11
+02:00,12°,"14%
+chance of precipitation",,88%,Partly cloudy and light winds,11
+03:00,11°,"8%
+chance of precipitation",,91%,Partly cloudy and light winds,11
+04:00,11°,"8%
+chance of precipitation",,91%,Partly cloudy and light winds,11
+05:00,11°,"0%
+chance of precipitation",,93%,A clear sky and light winds,11
+06:00,11°,"21%
+chance of precipitation",,91%,A clear sky and light winds,12
+07:00,11°,"21%
+chance of precipitation",,88%,Sunny and light winds,12
+08:00,12°,"21%
+chance of precipitation",,82%,Sunny and light winds,12
+09:00,13°,"10%
+chance of precipitation",,71%,Sunny and light winds,12
+10:00,15°,"23%
+chance of precipitation",,61%,Sunny and light winds,12
+11:00,17°,"10%
+chance of precipitation",,54%,Sunny and light winds,12
+12:00,17°,"23%
+chance of precipitation",,54%,Sunny and light winds,12
+13:00,17°,"23%
+chance of precipitation",,55%,Sunny and light winds,12
+14:00,17°,"23%
+chance of precipitation",,55%,Sunny and a gentle breeze,12
+15:00,17°,"19%
+chance of precipitation",,57%,Sunny and a gentle breeze,12
+16:00,17°,"19%
+chance of precipitation",,59%,Sunny and light winds,12
+17:00,17°,"19%
+chance of precipitation",,62%,A clear sky and light winds,12
+18:00,16°,"19%
+chance of precipitation",,66%,A clear sky and light winds,12
+19:00,15°,"19%
+chance of precipitation",,69%,A clear sky and light winds,12
+20:00,15°,"6%
+chance of precipitation",,73%,A clear sky and light winds,12
+21:00,14°,"0%
+chance of precipitation",,75%,A clear sky and light winds,12
+22:00,13°,"0%
+chance of precipitation",,77%,A clear sky and light winds,12
+23:00,13°,"0%
+chance of precipitation",,78%,A clear sky and light winds,12
+00:00,12°,"0%
+chance of precipitation",,79%,A clear sky and light winds,12
+01:00,12°,"0%
+chance of precipitation",,80%,A clear sky and light winds,12
+02:00,12°,"0%
+chance of precipitation",,80%,A clear sky and light winds,12
+03:00,11°,"0%
+chance of precipitation",,83%,A clear sky and light winds,12
+04:00,11°,"0%
+chance of precipitation",,82%,A clear sky and light winds,12
+05:00,11°,"0%
+chance of precipitation",,83%,A clear sky and light winds,12
+06:00,11°,"0%
+chance of precipitation",,81%,A clear sky and light winds,13
+07:00,11°,"0%
+chance of precipitation",,79%,Sunny and light winds,13
+08:00,12°,"0%
+chance of precipitation",,74%,Sunny and light winds,13
+09:00,13°,"0%
+chance of precipitation",,64%,Sunny and light winds,13
+10:00,15°,"0%
+chance of precipitation",,55%,Sunny and light winds,13
+11:00,17°,"0%
+chance of precipitation",,50%,Sunny and light winds,13
+12:00,17°,"0%
+chance of precipitation",,49%,Sunny and light winds,13
+13:00,17°,"0%
+chance of precipitation",,50%,Sunny and light winds,13
+14:00,17°,"0%
+chance of precipitation",,51%,Sunny and a gentle breeze,13
+15:00,17°,"14%
+chance of precipitation",,54%,Sunny and light winds,13
+16:00,17°,"14%
+chance of precipitation",,56%,Sunny and light winds,13
+17:00,16°,"14%
+chance of precipitation",,60%,A clear sky and light winds,13
+18:00,16°,"0%
+chance of precipitation",,63%,A clear sky and light winds,13
+19:00,15°,"0%
+chance of precipitation",,66%,A clear sky and light winds,13
+20:00,15°,"0%
+chance of precipitation",,68%,A clear sky and light winds,13
+21:00,14°,"14%
+chance of precipitation",,70%,A clear sky and light winds,13
+22:00,13°,"13%
+chance of precipitation",,71%,A clear sky and light winds,13
+23:00,13°,"12%
+chance of precipitation",,72%,A clear sky and light winds,13
+00:00,12°,"15%
+chance of precipitation",,73%,A clear sky and light winds,13
+01:00,12°,"16%
+chance of precipitation",,74%,A clear sky and light winds,13
+02:00,12°,"18%
+chance of precipitation",,73%,Partly cloudy and light winds,13
+03:00,11°,"0%
+chance of precipitation",,76%,Partly cloudy and light winds,13
+04:00,11°,"0%
+chance of precipitation",,78%,Partly cloudy and light winds,13
+05:00,10°,"0%
+chance of precipitation",,81%,Partly cloudy and light winds,13
