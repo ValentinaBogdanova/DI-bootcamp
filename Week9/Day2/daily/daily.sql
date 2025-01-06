@@ -1,0 +1,142 @@
+-- 🌟 Task 1: Calculate the Average Budget Growth Rate for Each Production Company
+-- Calculate the average budget growth rate for each production company across all movies they have produced. Use window functions to determine
+-- the budget growth rate and then calculate the average growth rate.
+
+
+-- WITH growth_budget_comp AS (
+--     SELECT 
+--         pc.company_name,
+--         (m.budget - lag(m.budget) over (
+--             PARTITION BY pc.company_name 
+--             ORDER BY m.release_date))
+--        		 * 1.0 / NULLIF(LAG(m.budget) over(
+--             PARTITION BY pc.company_name 
+--             ORDER BY m.release_date
+--         ), 0) as growth_rate
+--     FROM 
+--         movies.movie_company as mc
+--     JOIN 
+--         movies.production_company as pc on mc.company_id = pc.company_id
+--     JOIN 
+--         movies.movie as m on mc.movie_id = m.movie_id
+-- )
+-- SELECT 
+--     company_name,
+--     AVG(growth_rate) as average_growth_rate
+-- FROM 
+--     growth_budget_comp
+-- WHERE 
+--     growth_rate IS NOT NULL
+-- GROUP BY 
+--     company_name
+-- ORDER BY 
+--     average_growth_rate DESC;
+
+-- 🌟 Task 2: Determine the Most Consistently High-Rated Actor
+-- Identify the actor who has appeared in the most movies that are 
+-- rated above the average rating of all movies. Use window functions and CTEs 
+-- to calculate the average rating and filter the actors based on this criterion.
+
+
+-- WITH avgerage_rat AS (
+--     SELECT 
+--         AVG(m.vote_average) AS avg_rating
+--     FROM 
+--         movies.movie AS m
+-- ),
+-- highiest_rat_movies AS (
+--     SELECT 
+--         mc.person_id,
+--         m.movie_id
+--     FROM 
+--         movies.movie_cast AS mc
+--     JOIN 
+--         movies.movie AS m ON mc.movie_id = m.movie_id
+--     CROSS JOIN 
+--         avgerage_rat
+--     WHERE 
+--         m.vote_average > avg_rating
+-- ),
+-- actor_rat_count AS (
+--     SELECT 
+--         p.person_name as actor_name,
+--         COUNT(hrm.movie_id) as high_rated_movies_count
+--     FROM 
+--         highiest_rat_movies as hrm
+--     JOIN 
+--         movies.person as p on hrm.person_id = p.person_id
+--     GROUP BY 
+--         p.person_name
+-- )
+-- SELECT 
+--     actor_name,
+--     high_rated_movies_count
+-- FROM (
+--     SELECT 
+--         actor_name,
+--         high_rated_movies_count,
+--         RANK() OVER (ORDER BY high_rated_movies_count DESC) as rank
+--     FROM 
+--         actor_rat_count
+-- ) RankedActors
+-- WHERE 
+--     rank = 1;
+
+
+-- 🌟 Task 3: Calculate the Rolling Average Revenue for Each Genre
+-- Calculate the rolling average revenue for movies within each genre, considering 
+-- only the last three movies released in the genre. 
+-- Use window functions with the ROWS frame specification to achieve this.
+
+-- SELECT 
+--     g.genre_name,
+--     m.title as movie_title,
+--     m.revenue,
+--     m.release_date,
+--     AVG(m.revenue) OVER (
+--         PARTITION BY g.genre_name
+--         ORDER BY m.release_date
+--         ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+--     ) as rolling_avg_revenue
+-- FROM 
+--     movies.movie_genres as mg
+-- JOIN 
+--     movies.genre as g on mg.genre_id = g.genre_id
+-- JOIN 
+--     movies.movie as m on mg.movie_id = m.movie_id
+-- ORDER BY 
+--     g.genre_name, m.release_date
+
+
+-- 🌟 Task 4: Identify the Highest-Grossing Movie Series
+-- Identify the movie series (based on shared keywords) with
+-- the highest total revenue. Use window functions and CTEs 
+-- to group movies by their series and calculate the total revenue.
+
+
+-- WITH series_revenue as (
+--     SELECT 
+--         k.keyword_name as series_name,
+--         SUM(m.revenue) as total_revenue
+--     FROM 
+--         movies.movie_keywords as mk
+--     JOIN 
+--         movies.keyword as k on mk.keyword_id = k.keyword_id
+--     JOIN 
+--         movies.movie as m on mk.movie_id = m.movie_id
+--     GROUP BY 
+--         k.keyword_name),
+-- ranked_series as (
+--     SELECT 
+--         series_name,
+--         total_revenue,
+--         RANK() OVER (ORDER BY total_revenue DESC) as rank
+--     FROM 
+--         series_revenue)
+-- SELECT 
+--     series_name,
+--     total_revenue
+-- FROM 
+--     ranked_series
+-- WHERE 
+--     rank = 1
